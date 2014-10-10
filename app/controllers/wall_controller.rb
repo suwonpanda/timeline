@@ -4,6 +4,6 @@ class WallController < ApplicationController
 
   def posts
 	@writer = params[:write]
-	@content = paramas[:content]
+	@content = params[:content]
   end
 end
